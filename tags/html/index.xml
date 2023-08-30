@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on SukaKode - Belajar pemrograman Website &amp; UI Design</title>
-    <link>https://sukakode.vercel.app/posts/</link>
-    <description>Recent content in Posts on SukaKode - Belajar pemrograman Website &amp; UI Design</description>
+    <title>HTML on SukaKode - Belajar pemrograman Website &amp; UI Design</title>
+    <link>https://sukakode.vercel.app/tags/html/</link>
+    <description>Recent content in HTML on SukaKode - Belajar pemrograman Website &amp; UI Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Aug 2023 12:50:45 +0700</lastBuildDate><atom:link href="https://sukakode.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 12:50:45 +0700</lastBuildDate><atom:link href="https://sukakode.vercel.app/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Belajar HTML #2 - Mengenal Tag, Elemen &amp; Atribut HTML</title>
       <link>https://sukakode.vercel.app/posts/belajar-html-tag-elemen-atribut/</link>
@@ -20,18 +20,6 @@ Syntax Fungsi &amp;lt;html&amp;gt; Untuk memulai dokumen HTML &amp;lt;head&amp;g
     </item>
     
     <item>
-      <title>Text Editor Terbaik Untuk Web Developer</title>
-      <link>https://sukakode.vercel.app/posts/text-editor-terbaik/</link>
-      <pubDate>Wed, 30 Aug 2023 09:59:57 +0700</pubDate>
-      
-      <guid>https://sukakode.vercel.app/posts/text-editor-terbaik/</guid>
-      <description>Pengertian Text Editor Text Editor merupakan aplikasi yang digunakan untuk menulis syntak(Kode Program). Kita akan menggunakan Browser untuk melihat output dalam kode program
-Memilih Text Editor Berikut Text Editor Terbaik untuk web developer.
-Visual Studio Code Visual Studio Code dikembangkan oleh Microsoft. Namun text editor ini bisa digunakan oleh semua sistem operasi. Anda juga bisa menggunakan secara gratis.
-Sublime Text 4 Saat ini Sublime Text sudah versi 4, text editor ini sangat ringan, cocok untuk spek komputer dengan ram 2 GB.</description>
-    </item>
-    
-    <item>
       <title>Belajar HTML #1 - Apa itu HTML ?</title>
       <link>https://sukakode.vercel.app/posts/belajar-html-apa-itu-html/</link>
       <pubDate>Wed, 30 Aug 2023 09:47:47 +0700</pubDate>
@@ -41,24 +29,6 @@ Sublime Text 4 Saat ini Sublime Text sudah versi 4, text editor ini sangat ringa
 Dalam membuat website, tidak hanya menggunakan HTML, tetapi ada bahasa lain yg menjadi pelengkap yaitu CSS dan JavaScript
 Kegunaan HTML HTML berfungsi sebagai kerangka dasar dalam tampilan website. HTML berguna untuk :
 Membuat Heading atau judul website Membuar Paragraf Membuat List Membuat Tabel Membuat Formulir Menampilkan Gambar atau Vidio dan masih banyak lagi kegunaan HTML yang nanti akan kita pelajari Saat ini HTML sudah versi 5.</description>
-    </item>
-    
-    <item>
-      <title>Second Post</title>
-      <link>https://sukakode.vercel.app/posts/second-post/</link>
-      <pubDate>Tue, 29 Aug 2023 22:07:02 +0700</pubDate>
-      
-      <guid>https://sukakode.vercel.app/posts/second-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://sukakode.vercel.app/posts/my-first-post/</link>
-      <pubDate>Tue, 29 Aug 2023 21:59:27 +0700</pubDate>
-      
-      <guid>https://sukakode.vercel.app/posts/my-first-post/</guid>
-      <description></description>
     </item>
     
   </channel>

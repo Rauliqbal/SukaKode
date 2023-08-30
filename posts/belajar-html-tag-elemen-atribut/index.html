@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+   <head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+<title>Belajar HTML #2 - Mengenal Tag, Elemen &amp; Atribut HTML - SukaKode - Belajar pemrograman Website &amp; UI Design</title>
+
+ 
+<link rel="stylesheet" href="/scss/style.min.74c074d26dc3ec9d4cc45a9a9f52ffef58e75b743b6e9f0fe1a7b1e879eb9fb0.css" />
+</head>
+   <body>
+      
+
+<nav class="navbar">
+   
+   <div class="logo"><a href="https://sukakode.vercel.app/">SukaKode</a></div>
+
+   
+   <div class="nav-links">
+    <a class="search-icon" href="https://sukakode.vercel.app/search">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </a>
+
+      
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+      
+      <div class="menu">
+        <a href="https://sukakode.vercel.app/">Home</a>
+
+        <a href="https://sukakode.vercel.app/tutorial">Tutorial</a>
+
+
+        <a class="search-icon" href="https://sukakode.vercel.app/search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </a>
+
+         
+
+         
+      </div>
+   </div>
+</nav>
+<div class="container">
+         <main class="main">
+            
+<div class="post">
+  <div class="post__header">
+    
+    <img class="post__image" src="/posts/belajar-html-tag-elemen-atribut/tag-elemen-atribut.jpg">
+  </div>
+
+  
+  <div class="post__tags">
+    
+      <a class="post__tag" href="https://sukakode.vercel.app/tags/html">HTML</a>
+    
+  </div>
+  
+
+  <section class="post__content">
+    <h1 id="title">Belajar HTML #2 - Mengenal Tag, Elemen &amp; Atribut HTML</h1>
+    <div>
+      <article>
+          <h2 id="pengertian-tag-html">Pengertian Tag HTML</h2>
+<p><strong>Tag</strong> adalah sebuah penanda awal dan akhir dari sebuah elemen HTML. Tag dibuat dengan kurung siku <code>&lt;..&gt;</code>. Tag ditulis dengan <em>Tag Pembuka</em> dan <em>Tag Penutup</em>, namun ada beberapa Tag yang tidak memiliki Tag Penutup seperti <code>&lt;hr&gt;, &lt;br&gt;</code>. <em>Tag Penutup</em> ditulis dengan menambahkan garis miring didepan nama <strong>Tag</strong>.</p>
+<blockquote>
+<p>📝 <strong>CATATAN :</strong> Tag HTML harus ditulis menggunakan huruf kecil.</p>
+</blockquote>
+<p><img src="tag-html.jpg" alt="Tag Elemen"></p>
+<p>Berikut Tag-tag dasar dalam HTML :</p>
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Fungsi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;html&gt;</code></td>
+<td>Untuk memulai dokumen HTML</td>
+</tr>
+<tr>
+<td><code>&lt;head&gt;</code></td>
+<td>Biasanya berisi tag Title dan Description website</td>
+</tr>
+<tr>
+<td><code>&lt;body&gt;</code></td>
+<td>Membuat bagian-bagian dari tampilan website seperti table, paragraf , heading dan masih banyak lagi</td>
+</tr>
+<tr>
+<td><code>&lt;h1&gt; &lt;h6&gt;</code></td>
+<td>Untuk membuat teks header, semakin besar angkanya semakin kecil hurufnya</td>
+</tr>
+<tr>
+<td><code>&lt;p&gt;</code></td>
+<td>Membuat teks Paragraf</td>
+</tr>
+<tr>
+<td><code>&lt;table&gt;</code></td>
+<td>Untuk membuat tabel</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tag-tag-wajib-dalam-html">Tag-tag wajib dalam HTML</h3>
+<ul>
+<li><code>&lt;!DOCTYPE html&gt;</code></li>
+<li><code>&lt;html&gt;</code></li>
+<li><code>&lt;head&gt;</code></li>
+<li><code>&lt;title&gt;</code></li>
+<li><code>&lt;body&gt;</code></li>
+</ul>
+<h2 id="pengertian-elemen-html">Pengertian Elemen HTML</h2>
+<p><strong>Elemen HTML</strong> adalah sebuah kode HTML yang sudah disediakan dan setiap kode elemen mempunyai fungsinya masing - masing. Elemen HTML sama seperti Tag HTML mempunyai Tag Pemuka dan Tag Penutup</p>
+<blockquote>
+<p>📝 <strong>CATATAN :</strong> <em><code>&lt;strong&gt;</code></em> untuk membuat teks tebal</p>
+</blockquote>
+<div class="code-block-container"><div class="code-block-filename-container">
+    
+  </div>
+  <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">strong</span>&gt;&lt;<span style="color:#f92672">h1</span>&gt;Belajar HTML&lt;/<span style="color:#f92672">h1</span>&gt;&lt;/<span style="color:#f92672">strong</span>&gt;</span></span></code></pre></div>
+  </div>
+</div><p>Elemen HTML ada banyak jenisnya, ada elemen khusus teks, tabelm script dan lain - lain. Beberapa elemen HTML memerlukan atribut sebagai pelengkap.</p>
+<h2 id="pengertian-atribut-html">Pengertian Atribut HTML</h2>
+<p><strong>Atribut HTML</strong> adalah informasi tambahan yang diberikan untuk elemen yang dituliskan pada tag pembuka.</p>
+<div class="code-block-container"><div class="code-block-filename-container">
+    
+  </div>
+  <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">align</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;center&#34;</span>&gt;belajar HTML&lt;/<span style="color:#f92672">h1</span>&gt;</span></span></code></pre></div>
+  </div>
+</div><p>Pada contoh diatas <strong>align</strong> adalah atribut, <strong>center</strong> adalah nilai atribut. Tidak semua tag membutuhkan atribut, pada HTML ini banyak sekali atribut yang bisa digunakan tetapi hanya tag tertentu saja.</p>
+<p>Nah akhirnya kita sudah mengenal Tag, Elemen dan Atribut pada HTML. semoga artikel ini bisa membantu kalian yang baru belajar HTML. Terima Kasih✨</p>
+<blockquote>
+<p>📖 Silahkan cek untuk Tutorial HTML lainnya di <a href="/tutorial/html">List Belajar HTML</a></p>
+</blockquote>
+
+      </article>
+    </div>
+  </section>
+</div>
+
+         </main><footer class="footer">
+   <span
+      >&copy; 2023 | SukaKode <br />
+      Distributed By <a href="https://rauliqbal.my.id">Rauliqbal</a></span
+   >
+</footer>
+
+      </div>
+   </body>
+</html>
