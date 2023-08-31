@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+   <head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+<link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+<title>Mari Kita Install Tailwind CSS - SukaKode - Belajar pemrograman Website &amp; UI Design</title>
+
+ 
+<link rel="stylesheet" href="/scss/style.min.3acfa6efdb611d80cd3f80728e86423398e6cdf678c43bbdcfcd4d74b968112e.css" />
+</head>
+   <body>
+      
+
+<nav class="navbar">
+   
+   <div class="logo"><a href="https://sukakode.vercel.app/"><img src="/sukakode.png" alt="SukaKode Belajar Pemoraman Website dan UI Design"></a></div>
+
+   
+   <div class="nav-links">
+    <a class="search-icon" href="https://sukakode.vercel.app/search">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </a>
+
+      
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+      
+      <div class="menu">
+        <a href="https://sukakode.vercel.app/">Home</a>
+
+        <a href="https://sukakode.vercel.app/tutorial">Tutorial</a>
+
+
+        <a class="search-icon" href="https://sukakode.vercel.app/search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </a>
+
+         
+
+         
+      </div>
+   </div>
+</nav>
+<div class="container">
+         <main class="main">
+            
+<div class="post">
+  <div class="post__header">
+    
+    <img class="post__image" src="/posts/cara-install-tailwind/install-tailwind.jpg">
+  </div>
+
+  
+  <div class="post__tags">
+    
+      <a class="post__tag" href="https://sukakode.vercel.app/tags/tailwind-css">Tailwind CSS</a>
+    
+  </div>
+  
+
+  <section class="post__content">
+    <h1 id="title">Mari Kita Install Tailwind CSS</h1>
+    <div>
+      <article>
+          <h2 id="install-tailwind-css-dengan-mudah">Install Tailwind CSS Dengan Mudah</h2>
+<p>Sebelom install Tailwind CSS nya, kita harus membuat file <code>package.json</code>, buka terminal anda.</p>
+<div class="code-block-container"><div class="code-block-filename-container">
+    
+  </div>
+  <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm init -y</span></span></code></pre></div>
+  </div>
+</div><p>Kemudian setelah itu kita instalasi tailwind css.</p>
+<div class="code-block-container"><div class="code-block-filename-container">
+    
+  </div>
+  <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install -D tailwindcss</span></span></code></pre></div>
+  </div>
+</div><p>Setelah itu kita buat file <code>tailwind.config.js</code> dengan menggunakan perintah ini.</p>
+<div class="code-block-container"><div class="code-block-filename-container">
+    
+  </div>
+  <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx tailwindcss init -p</span></span></code></pre></div>
+  </div>
+</div><p>Setelah itu buka file <code>tailwind.config.js</code> tambahkan lokasi file HTML.</p>
+<div class="code-block-container"><div class="code-block-filename-container">
+    
+  </div>
+  <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">module</span>.<span style="color:#a6e22e">exports</span> <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">content</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#34;*.{html,js}&#34;</span>],
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">theme</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">extend</span><span style="color:#f92672">:</span> {},
+</span></span><span style="display:flex;"><span>   },
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">plugins</span><span style="color:#f92672">:</span> [],
+</span></span><span style="display:flex;"><span>};</span></span></code></pre></div>
+  </div>
+</div><p>Kemudian kita buat file <code>style.css</code> didalam folder <strong>css</strong>, lalu masukan kode berikut.</p>
+<div class="code-block-container"><div class="code-block-filename-container">
+    
+  </div>
+  <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>@<span style="color:#66d9ef">tailwind</span> <span style="color:#f92672">base</span>;
+</span></span><span style="display:flex;"><span>@<span style="color:#66d9ef">tailwind</span> <span style="color:#f92672">components</span>;
+</span></span><span style="display:flex;"><span>@<span style="color:#66d9ef">tailwind</span> <span style="color:#f92672">utilities</span>;</span></span></code></pre></div>
+  </div>
+</div><p><img src="tailwind-css.jpg" alt="Install Tailwind CSS"></p>
+<p>Untuk mempermudah kita buat perintah di <code>package.json</code>, buka file <code>package.json</code>, tambahkan perintah berikut.</p>
+<div class="code-block-container"><div class="code-block-filename-container">
+    
+  </div>
+  <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#e6db74">&#34;watch&#34;</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;npx tailwindcss -i ./css/style.css -o ./dist/output.css --watch&#34;</span></span></span></code></pre></div>
+  </div>
+</div><p><img src="tailwind-package.jpg" alt="Install Tailwind CSS"></p>
+<p>Setelah itu jalankan perintah nya di terminal anda.</p>
+<div class="code-block-container"><div class="code-block-filename-container">
+    
+  </div>
+  <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm run watch</span></span></code></pre></div>
+  </div>
+</div><p>Maka akan membuat file <code>output.css</code> didalam folder <code>dist</code></p>
+<p>Selanjutnya, buat file <code>index.html</code>, masukkan kode berikut.</p>
+<div class="code-block-container"><div class="code-block-filename-container">
+    
+  </div>
+  <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>   &lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width, initial-scale=1.0&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">&lt;!-- Tailwind CSS --&gt;</span>
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./dist/output.css&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">title</span>&gt;Install Tailwind CSS&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>   &lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>   &lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">h1</span>&gt;Hello World!&lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>   &lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;</span></span></code></pre></div>
+  </div>
+</div><p>Mari kita coba style text <code>Hello World</code>.</p>
+<div class="code-block-container"><div class="code-block-filename-container">
+    
+  </div>
+  <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-center text-5xl font-semibold text-blue-400&#34;</span>&gt;Hello World!&lt;/<span style="color:#f92672">h1</span>&gt;</span></span></code></pre></div>
+  </div>
+</div><p>Hasilnya :</p>
+<p><img src="tailwind-helloworld.jpg" alt="Cara install tailwind CSS"></p>
+<p>Kamu bisa mengikuti vidio berikut agar lebih mudah dipahami.</p>
+<iframe class="iframe"  src="https://www.youtube.com/embed/reDenST0jtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>Nah Akhirnya kita sudah mempelajari cara instalasi Tailwind CSS. Semoga artikel ini bisa membantu kalian yang ingin mencoba Tailwind CSS. Terima Kasih✨</p>
+
+      </article>
+    </div>
+  </section>
+</div>
+
+         </main><footer class="footer">
+   <span
+      >&copy; 2023 | SukaKode <br />
+      Distributed By <a href="https://rauliqbal.my.id">Rauliqbal</a></span
+   >
+</footer>
+
+      </div>
+   </body>
+</html>

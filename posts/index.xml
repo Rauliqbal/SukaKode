@@ -6,7 +6,58 @@
     <description>Recent content in Posts on SukaKode - Belajar pemrograman Website &amp; UI Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Aug 2023 12:50:45 +0700</lastBuildDate><atom:link href="https://sukakode.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Aug 2023 09:34:24 +0700</lastBuildDate><atom:link href="https://sukakode.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mari Kita Install Tailwind CSS</title>
+      <link>https://sukakode.vercel.app/posts/cara-install-tailwind/</link>
+      <pubDate>Thu, 31 Aug 2023 09:34:24 +0700</pubDate>
+      
+      <guid>https://sukakode.vercel.app/posts/cara-install-tailwind/</guid>
+      <description>Install Tailwind CSS Dengan Mudah Sebelom install Tailwind CSS nya, kita harus membuat file package.json, buka terminal anda.
+npm init -yKemudian setelah itu kita instalasi tailwind css.
+npm install -D tailwindcssSetelah itu kita buat file tailwind.config.js dengan menggunakan perintah ini.
+npx tailwindcss init -pSetelah itu buka file tailwind.config.js tambahkan lokasi file HTML.
+module.exports = { content: [&amp;#34;*.{html,js}&amp;#34;], theme: { extend: {}, }, plugins: [], };Kemudian kita buat file style.</description>
+    </item>
+    
+    <item>
+      <title>Belajar HTML #5 - Cara Membuat Komentar</title>
+      <link>https://sukakode.vercel.app/posts/belajar-html-komentar/</link>
+      <pubDate>Thu, 31 Aug 2023 09:31:40 +0700</pubDate>
+      
+      <guid>https://sukakode.vercel.app/posts/belajar-html-komentar/</guid>
+      <description>Pengertian Komentar di HTML Komentar pada HTML untuk memberikan informasi tambahan pada kode HTML, dan tidak akan ditampilkan di dalam Website
+Membuat Komentar Komentar dibuat sangat lah gampang dengan tag &amp;lt;!-- --&amp;gt; , Jika kamu menggunakan Text Editor Visual Studio Code kamu dapat dengan mudah membuat komentar dengan menggunakan shorcut ctrl + /
+Contohnya :
+&amp;lt;!-- Judul --&amp;gt; &amp;lt;h1&amp;gt;SukaKode&amp;lt;/h1&amp;gt; &amp;lt;br /&amp;gt; &amp;lt;!-- Paragraf --&amp;gt; &amp;lt;p&amp;gt;Belajar Pemrograman Website &amp;amp; UI Design yang mudah dipahami&amp;lt;/p&amp;gt;Hasilnya : Nah akhirnya kita sudah mempelajari cara membuat Komentar pada HTML.</description>
+    </item>
+    
+    <item>
+      <title>Belajar HTML #4 - Membuat Teks Paragraf</title>
+      <link>https://sukakode.vercel.app/posts/belajar-html-paragraf/</link>
+      <pubDate>Thu, 31 Aug 2023 09:23:15 +0700</pubDate>
+      
+      <guid>https://sukakode.vercel.app/posts/belajar-html-paragraf/</guid>
+      <description>Pengertian Paragraf Paragraf adalah suatu gagasan yang berbentuk serangkaian kalimat yang berkaitan. di dalam website Paragraf sangat penting untuk memberikan informasi kepada pengunjung website.
+Membuat Paragraf Untuk membuat Paragraf kita buat dengan tag &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;.
+Contohnya :
+&amp;lt;p&amp;gt;Halo Aku Sedang Belajar HTML&amp;lt;/p&amp;gt;Hasilnya : Menambah Atribut Paragraf Paragraf pada HTML bisa di tambahkan atribut seperti class, id , align,style
+Contohnya :
+&amp;lt;p align=&amp;#34;center&amp;#34;&amp;gt;Saya sedang belajar membuat paragraf pada HTML&amp;lt;/p&amp;gt; &amp;lt;p style=&amp;#34;text-align:right;&amp;#34;&amp;gt;Paragraf dalam HTML sangatlah penting karena itu kamu wajib mempelajarinya&amp;lt;/p&amp;gt;Hasilnya : Menambah Tag Paragraf kita juga bisa menambahkan Tag di dalam paragraf, seperti tag &amp;lt;br&amp;gt; dan &amp;lt;hr&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>Belajar Figma Dasar #1 - Apa Itu Figma ?</title>
+      <link>https://sukakode.vercel.app/posts/belajar-figma-apa-itu-figma/</link>
+      <pubDate>Thu, 31 Aug 2023 09:11:01 +0700</pubDate>
+      
+      <guid>https://sukakode.vercel.app/posts/belajar-figma-apa-itu-figma/</guid>
+      <description>Apa Itu Figma ? Figma adalah Tools untuk membuat sebuah User Interface yang biasa digunakan oleh seorang UI/UX Designer. Tidak hanya untuk membuat UI saja, tapi juga bisa membuat Prototype.
+Figma bisa digunakan di operasi sistem apapun, dikarenakan Figma dijalankan melalui browser, anda tinggal mengunjungi website Figma. Namun Figma juga bisa di install tetapi hanya support untuk Windows dan Mac OS.
+Download Figma Desktop
+Nah akhirnya kita sudah mengenal Figma. semoga artikel ini bisa membantu kalian yang baru belajar HTML.</description>
+    </item>
+    
     <item>
       <title>Belajar HTML #2 - Mengenal Tag, Elemen &amp; Atribut HTML</title>
       <link>https://sukakode.vercel.app/posts/belajar-html-tag-elemen-atribut/</link>
@@ -41,24 +92,6 @@ Sublime Text 4 Saat ini Sublime Text sudah versi 4, text editor ini sangat ringa
 Dalam membuat website, tidak hanya menggunakan HTML, tetapi ada bahasa lain yg menjadi pelengkap yaitu CSS dan JavaScript
 Kegunaan HTML HTML berfungsi sebagai kerangka dasar dalam tampilan website. HTML berguna untuk :
 Membuat Heading atau judul website Membuar Paragraf Membuat List Membuat Tabel Membuat Formulir Menampilkan Gambar atau Vidio dan masih banyak lagi kegunaan HTML yang nanti akan kita pelajari Saat ini HTML sudah versi 5.</description>
-    </item>
-    
-    <item>
-      <title>Second Post</title>
-      <link>https://sukakode.vercel.app/posts/second-post/</link>
-      <pubDate>Tue, 29 Aug 2023 22:07:02 +0700</pubDate>
-      
-      <guid>https://sukakode.vercel.app/posts/second-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://sukakode.vercel.app/posts/my-first-post/</link>
-      <pubDate>Tue, 29 Aug 2023 21:59:27 +0700</pubDate>
-      
-      <guid>https://sukakode.vercel.app/posts/my-first-post/</guid>
-      <description></description>
     </item>
     
   </channel>

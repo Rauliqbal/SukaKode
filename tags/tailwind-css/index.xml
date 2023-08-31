@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tailwind CSS on SukaKode - Belajar pemrograman Website &amp; UI Design</title>
+    <link>https://sukakode.vercel.app/tags/tailwind-css/</link>
+    <description>Recent content in Tailwind CSS on SukaKode - Belajar pemrograman Website &amp; UI Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Aug 2023 09:34:24 +0700</lastBuildDate><atom:link href="https://sukakode.vercel.app/tags/tailwind-css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mari Kita Install Tailwind CSS</title>
+      <link>https://sukakode.vercel.app/posts/cara-install-tailwind/</link>
+      <pubDate>Thu, 31 Aug 2023 09:34:24 +0700</pubDate>
+      
+      <guid>https://sukakode.vercel.app/posts/cara-install-tailwind/</guid>
+      <description>Install Tailwind CSS Dengan Mudah Sebelom install Tailwind CSS nya, kita harus membuat file package.json, buka terminal anda.
+npm init -yKemudian setelah itu kita instalasi tailwind css.
+npm install -D tailwindcssSetelah itu kita buat file tailwind.config.js dengan menggunakan perintah ini.
+npx tailwindcss init -pSetelah itu buka file tailwind.config.js tambahkan lokasi file HTML.
+module.exports = { content: [&amp;#34;*.{html,js}&amp;#34;], theme: { extend: {}, }, plugins: [], };Kemudian kita buat file style.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,19 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sukakode.vercel.app/posts/belajar-html-tag-elemen-atribut/</loc>
-    <lastmod>2023-08-30T12:50:45+07:00</lastmod>
-  </url><url>
-    <loc>https://sukakode.vercel.app/tags/html/</loc>
-    <lastmod>2023-08-30T12:50:45+07:00</lastmod>
+    <loc>https://sukakode.vercel.app/posts/cara-install-tailwind/</loc>
+    <lastmod>2023-08-31T09:34:24+07:00</lastmod>
   </url><url>
     <loc>https://sukakode.vercel.app/posts/</loc>
-    <lastmod>2023-08-30T12:50:45+07:00</lastmod>
+    <lastmod>2023-08-31T09:34:24+07:00</lastmod>
   </url><url>
     <loc>https://sukakode.vercel.app/</loc>
-    <lastmod>2023-08-30T12:50:45+07:00</lastmod>
+    <lastmod>2023-08-31T09:34:24+07:00</lastmod>
   </url><url>
     <loc>https://sukakode.vercel.app/tags/</loc>
+    <lastmod>2023-08-31T09:34:24+07:00</lastmod>
+  </url><url>
+    <loc>https://sukakode.vercel.app/tags/tailwind-css/</loc>
+    <lastmod>2023-08-31T09:34:24+07:00</lastmod>
+  </url><url>
+    <loc>https://sukakode.vercel.app/posts/belajar-html-komentar/</loc>
+    <lastmod>2023-08-31T09:31:40+07:00</lastmod>
+  </url><url>
+    <loc>https://sukakode.vercel.app/tags/html/</loc>
+    <lastmod>2023-08-31T09:31:40+07:00</lastmod>
+  </url><url>
+    <loc>https://sukakode.vercel.app/posts/belajar-html-paragraf/</loc>
+    <lastmod>2023-08-31T09:23:15+07:00</lastmod>
+  </url><url>
+    <loc>https://sukakode.vercel.app/posts/belajar-figma-apa-itu-figma/</loc>
+    <lastmod>2023-08-31T09:11:01+07:00</lastmod>
+  </url><url>
+    <loc>https://sukakode.vercel.app/tags/figma/</loc>
+    <lastmod>2023-08-31T09:11:01+07:00</lastmod>
+  </url><url>
+    <loc>https://sukakode.vercel.app/tags/ui-design/</loc>
+    <lastmod>2023-08-31T09:11:01+07:00</lastmod>
+  </url><url>
+    <loc>https://sukakode.vercel.app/posts/belajar-html-tag-elemen-atribut/</loc>
     <lastmod>2023-08-30T12:50:45+07:00</lastmod>
   </url><url>
     <loc>https://sukakode.vercel.app/posts/text-editor-terbaik/</loc>
@@ -22,12 +43,6 @@
   </url><url>
     <loc>https://sukakode.vercel.app/posts/belajar-html-apa-itu-html/</loc>
     <lastmod>2023-08-30T09:47:47+07:00</lastmod>
-  </url><url>
-    <loc>https://sukakode.vercel.app/posts/second-post/</loc>
-    <lastmod>2023-08-29T22:07:02+07:00</lastmod>
-  </url><url>
-    <loc>https://sukakode.vercel.app/posts/my-first-post/</loc>
-    <lastmod>2023-08-29T21:59:27+07:00</lastmod>
   </url><url>
     <loc>https://sukakode.vercel.app/categories/</loc>
   </url><url>

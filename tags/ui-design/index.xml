@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UI Design on SukaKode - Belajar pemrograman Website &amp; UI Design</title>
+    <link>https://sukakode.vercel.app/tags/ui-design/</link>
+    <description>Recent content in UI Design on SukaKode - Belajar pemrograman Website &amp; UI Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Aug 2023 09:11:01 +0700</lastBuildDate><atom:link href="https://sukakode.vercel.app/tags/ui-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Belajar Figma Dasar #1 - Apa Itu Figma ?</title>
+      <link>https://sukakode.vercel.app/posts/belajar-figma-apa-itu-figma/</link>
+      <pubDate>Thu, 31 Aug 2023 09:11:01 +0700</pubDate>
+      
+      <guid>https://sukakode.vercel.app/posts/belajar-figma-apa-itu-figma/</guid>
+      <description>Apa Itu Figma ? Figma adalah Tools untuk membuat sebuah User Interface yang biasa digunakan oleh seorang UI/UX Designer. Tidak hanya untuk membuat UI saja, tapi juga bisa membuat Prototype.
+Figma bisa digunakan di operasi sistem apapun, dikarenakan Figma dijalankan melalui browser, anda tinggal mengunjungi website Figma. Namun Figma juga bisa di install tetapi hanya support untuk Windows dan Mac OS.
+Download Figma Desktop
+Nah akhirnya kita sudah mengenal Figma. semoga artikel ini bisa membantu kalian yang baru belajar HTML.</description>
+    </item>
+    
+  </channel>
+</rss>
